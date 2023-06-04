@@ -2,9 +2,9 @@ import Products from './Products';
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 
-import banner1 from '../assets/images/banner-1.png';
-import banner2 from '../assets/images/banner-2.png';
-import banner3 from '../assets/images/banner-3.png';
+import phone from '../assets/images/img1.jpg';
+import dress from '../assets/images/model.jpg';
+import ornament from '../assets/images/banner-3.png';
 
 const Home = () => {
     const [index, setIndex] = useState(0);
@@ -18,7 +18,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={banner1}
+                    src={phone}
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -30,7 +30,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner2}
+                        src={dress}
                         alt="Second slide"
                     />
 
@@ -43,7 +43,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner3}
+                        src={ornament}
                         alt="Third slide"
                     />
 
